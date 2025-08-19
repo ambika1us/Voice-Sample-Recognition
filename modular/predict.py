@@ -4,8 +4,8 @@ from tensorflow.keras.models import load_model
 from sklearn.preprocessing import LabelEncoder
 
 # Load model and encoder once
-model = load_model("E:/Projects/PyCharm/Voice Sample Recognition/emotion_model.h5")
-classes = np.load("E:/Projects/PyCharm/Voice Sample Recognition/classes.npy", allow_pickle=True)
+model = load_model("emotion_model.h5")
+classes = np.load("classes.npy", allow_pickle=True)
 le = LabelEncoder()
 le.classes_ = classes
 
