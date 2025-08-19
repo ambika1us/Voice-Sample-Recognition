@@ -1,0 +1,8 @@
+streamlit
+streamlit-webrtc
+numpy
+scikit-learn
+tensorflow  # or torch, depending on your model
+librosa
+altair
+matplotlib
