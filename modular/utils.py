@@ -3,7 +3,7 @@ import pandas as pd
 import numpy as np
 from sklearn.preprocessing import LabelEncoder
 
-classes = np.load("E:/Projects/PyCharm/Voice Sample Recognition/classes.npy", allow_pickle=True)
+classes = np.load("classes.npy", allow_pickle=True)
 le = LabelEncoder()
 le.classes_ = classes
 
